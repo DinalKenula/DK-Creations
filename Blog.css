@@ -123,19 +123,33 @@ a.btn-blog {
 }
 
 .blog-content-paragaraph {
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
 }
 
 .blog-img-content {
-	position: relative;
-	overflow: hidden;
-  width: max-content;
+  width:initial;
   align-content: center;
   height: auto;
+  overflow: hidden;
+
 }
-
-
+.blog-content-paragaraph p {
+  font-size:1.7vw;
+}
+.blog-content-paragaraph h1 {
+  font-size:2.5vw;
+}
+.blog-content-paragaraph h3 {
+  font-size:2vw;
+}
+.blog-content-paragaraph h3 u {
+  font-size:2vw;
+}
+.blog-content-paragaraph p b {
+  font-size:1.7vw;
+  text-align: center;
+}
