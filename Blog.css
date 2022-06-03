@@ -2,9 +2,22 @@
     box-sizing: border-box;
   }
   
+  .h1-blog-topic {
+    font-size: 82px;
+    background: -webkit-linear-gradient(rgb(151, 223, 89), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    }
+    .h2-blog-topic{
+    font-size: 22px;
+    background: -webkit-linear-gradient(rgb(151, 223, 89), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
   .left {
-    background: linear-gradient(to bottom, #b4fcb2 0%, #f7b3b3 100%);
-    padding: 20px;
+    
+    padding: 15px;
     float: left;
     width: 10%; /* The width is 20%, by default */
   }
@@ -17,8 +30,7 @@
   }
   
   .right {
-    background: linear-gradient(to bottom, #b4fcb2 0%, #f7b3b3 100%);
-    padding: 20px;
+    padding: 15px;
     float: left;
     width: 10%; /* The width is 20%, by default */
   }
